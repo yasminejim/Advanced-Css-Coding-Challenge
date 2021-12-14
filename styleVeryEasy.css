@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    margin: 40px 40px
+  }
+  .checkerboard {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+  }
+  
+  .box {
+    background-color:white;
+  }
+  
+  .box:nth-child(16n + 1),
+  .box:nth-child(16n + 3),
+  .box:nth-child(16n + 5),
+  .box:nth-child(16n + 7),
+  .box:nth-child(16n + 10),
+  .box:nth-child(16n + 12),
+  .box:nth-child(16n + 14),
+  .box:nth-child(16n + 16) {
+   background-color:black;
+  }

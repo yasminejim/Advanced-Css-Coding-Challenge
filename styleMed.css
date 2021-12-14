@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.container{
+    margin:px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+  }
+  
+  .card{
+    background:rgb(108, 74, 74);
+    width:255px;
+    height:560px;
+    margin:30px;
+    border-radius:15px ;
+    
+  }
+  
+  .card-image{
+    height:350px;
+    margin-bottom:15px;
+    background-size:cover;
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+  }
+  
+  .product-1{
+  background-image: url('images/Blanket.jpg');
+  }
+  .product-2{
+    background-image: url('images/Toothbrush.jpg');
+    }
+  .product-3{
+      background-image: url('images/TrashCan.jpg');
+    }
+  .product-4{
+      background-image: url('images/Airfryer.jpg');
+    }
+  .product-5{
+      background-image: url('images/iphoneCase.jpg');
+    }
+  .product-6{
+      background-image: url('images/DogToy.jpg');
+    }
+  .product-7{
+      background-image: url('images/CoffeeMug.jpg');
+    }
+  .product-8{
+      background-image: url('images/CoffeeMaker.jpg');
+    }
+  
+  
+    .card h2{
+     margin-bottom: -5px;
+      padding:1px;
+      text-align: center;
+      color:white;
+    }
+    .card h6{
+      font-size: 15px;
+      margin-bottom:-15px;
+      padding:5px;
+      text-align: center;
+      color:white;
+    }
+    .card p{
+      margin-bottom: -15px;
+      padding:10px;
+      text-align: center;
+      color:white;
+    }
+  
+    .card:hover{
+      transform: scale(1.03);
+      transition: all 1s ease;
+    }
+    .cartbuttonForm{
+      padding:20px 95px;
+    }
+    .inputBox1 input[type="submit"]
+    {
+      width: 100px;
+      background-color:rgb(237, 237, 237);
+      color:black;
+      border: none;
+      cursor: pointer;
+      padding: 3px;
+      font-size: 12px;
+      border-radius: 12px 12px;
+    
+    }
+    .inputBox1:hover{
+      color:black;
+      transform:scale(1.03);
+    }

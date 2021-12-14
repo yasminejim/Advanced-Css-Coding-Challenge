@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .divv {
+    display: flex;
+    align-items: flex-start;
+  }
+  body {
+    width: 70vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .divv img {
+    width: 500px;
+    height: auto;
+    margin-left: 2px;
+    margin-top: 2px;
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+  }
+  
+  .divv table {
+    width: 650px;
+    border: solid 2px black;
+    border-left: 0;
+    border-bottom: 0;
+  }
+  
+  td {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  th {
+    background-color: red;
+    padding: 30px;
+  }
+  
+  table {
+    width: 1006px;
+    border: solid 2px black;
+    border-top:0;
+  }
